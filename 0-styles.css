@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20vw;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 14rem;
+    height: 23rem;
+    border: 3px solid #999;
+    margin: 2rem 1.2rem;
+    border-radius: 13px;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    background-image: url(0-sprite.png);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: center;
+}
+
+li:first-child {
+    background-position: 1.5rem;
+}
+
+li:last-child {
+    background-position: -25.5rem;
+}
